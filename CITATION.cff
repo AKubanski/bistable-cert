@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite both the software release and the
+  associated preprint.
+title: bistable-cert
+type: software
+version: 1.0.0
+date-released: 2026-09-24
+license: MIT
+authors:
+  - family-names: Kubański
+    given-names: Aleksander
+    orcid: https://orcid.org/0009-0006-7239-5074
+abstract: >-
+  Reference Python implementation of computable sufficient certificates
+  for storage and branch-safe single-node selective writing in diffusively
+  coupled bistable graph memories.
+keywords:
+  - bistable systems
+  - graph memories
+  - selective writing
+  - certified switching
+  - nonlinear dynamics
+references:
+  - type: article
+    title: >-
+      Certified branch-safe selective writing in diffusively coupled
+      bistable graph memories
+    authors:
+      - family-names: Kubański
+        given-names: Aleksander
+        orcid: https://orcid.org/0009-0006-7239-5074
+    doi: 10.5281/zenodo.22903156
+    year: 2026

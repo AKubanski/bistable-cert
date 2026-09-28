@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bistable-cert"
+version = "1.0.0"
+description = "Computable certificates for certified branch-safe selective writing in diffusively coupled bistable graph memories"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [{name = "Aleksander Kubański", email = "aleksander@kubanski.pro"}]
+license = {file = "LICENSE"}
+keywords = [
+    "bistable systems",
+    "graph memories",
+    "selective writing",
+    "certified switching",
+    "nonlinear dynamics",
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy>=1.20",
+    "scipy>=1.7",
+]
+
+[project.urls]
+Preprint = "https://doi.org/10.5281/zenodo.22903156"
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+include = ["bistable_cert*"]
